@@ -1,17 +1,18 @@
 head {
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
-
+html,
 body {
     margin: 0;
-    background: #1B244A;
+    height: 100%;
+    background: linear-gradient(rgb(79, 11, 143), #1B244A);
     text-align: center;
-
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .team-name {
@@ -46,10 +47,11 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    transition: 444ms;
 }
 
 .score-buttons:hover {
-    background: #9AABD8;
+    background-color: #9AABD8;
     color: #1B244A;
 }
 
@@ -60,4 +62,24 @@ body {
     font-size: 90px;
     line-height: 127px;
     margin: 0;
+}
+
+#newGame-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin: 50px auto;
+    padding: 20px 0;
+    width: 50%;
+    max-width: 300px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(214, 52, 3);
+    display: block;
+    transition: 444ms;
+}
+
+#newGame-btn:hover {
+    background-color: rgb(175, 0, 0);
 }

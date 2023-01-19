@@ -59,3 +59,11 @@ function isAhead() {
         guestScoreEl.style.color = "#F94F6D"
     }
 }
+
+function newGame() {
+    guestScore = 0
+    guestScoreEl.textContent = 0
+    homeScore = 0
+    homeScoreEl.textContent = 0
+    isAhead()
+}
