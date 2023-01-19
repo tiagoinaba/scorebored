@@ -1,0 +1,63 @@
+head {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-name {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    margin: 68px 0 20px;
+}
+
+.score-block {
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+}
+
+.score-buttons {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.score-buttons:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    margin: 0;
+}
